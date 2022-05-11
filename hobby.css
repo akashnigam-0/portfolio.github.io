@@ -1,0 +1,51 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+body{
+    background-color: rgba(3, 3, 37, 0.735);
+    font-family: cursive;
+}
+li{
+    color: aliceblue;
+    font-size: medium;
+    margin-bottom: 1rem;
+}
+h1{
+    color: aqua;
+    font-size: x-large;
+    display: inline;
+    margin-bottom: 3rem;
+}
+article{
+    border: 5px groove lavenderblush;
+    border-radius: 10px;
+    margin: 10rem;
+    padding: 10rem;
+    background-color: rgb(89, 89, 181);
+}
+h2{
+    font-size: larger;
+    color: rgb(40, 33, 33);
+}
+a{
+    border: 3px groove black;
+    background-color: aquamarine;
+    border-radius: 10px;;
+    list-style-type: none;
+    text-decoration: none;
+    text-align: right;
+    font-size: 2rem;
+    color: rgb(18, 20, 20);
+    margin: auto;
+    padding: 0;
+    
+}
+a:hover{
+    color: cornflowerblue;
+}
+ul{
+    margin-bottom: 5rem;
+}

@@ -1,0 +1,39 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+body{
+    background-color: #002A4B;
+    font-family: cursive;
+}
+h1{
+font-size: xx-large;
+color: rgb(89, 223, 45);
+}
+h2{
+    color: lavenderblush;
+    margin-bottom: 5rem;
+}
+article{
+    border: 5px groove white;
+    background-color: rgb(39, 33, 86);
+    padding: 10rem;
+margin: 10rem;
+}
+a{
+    border: 3px groove black;
+    background-color: aquamarine;
+    border-radius: 10px;;
+    list-style-type: none;
+    text-decoration: none;
+    text-align: right;
+    font-size: 2rem;
+    color: rgb(18, 20, 20);
+    margin: auto;
+    padding: 0;
+}
+a:hover{
+    color: cornflowerblue;
+}
