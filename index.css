@@ -1,0 +1,46 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body{
+  background-color:#002A4B;
+}
+h1{
+font-size: xx-large;
+color: lavender;
+text-align:center;
+}
+nav li{
+list-style-type:none;
+border:3px solid violet;
+border-radius:10px;
+width:10rem;
+background-color:#001924;
+text-align:center;
+margin-bottom:0.7rem;
+margin:1rem; 
+display:inline-block;
+}
+nav a{
+border:3px solid black;
+border-radius:10px;
+font-size:1.5rem;
+color:white;
+font-weight:bold;
+text-decoration:none; 
+  display:block;
+padding:0.5rem; 
+}
+nav a:hover{
+background-color:white;
+color:red;
+}
+article{
+border:5px groove white;
+border-radius:10px;
+padding: 10rem;
+margin: 10rem;
+background-color: rgb(15, 23, 85);
+}
