@@ -14,8 +14,8 @@ text-align:center;
 }
 nav li{
 list-style-type:none;
-border:3px solid violet;
-border-radius:10px;
+border:18.75% solid violet;
+border-radius:62.5%;
 width:10rem;
 background-color:#001924;
 text-align:center;
@@ -24,8 +24,8 @@ margin:1rem;
 display:inline-block;
 }
 nav a{
-border:3px solid black;
-border-radius:10px;
+border:18.75% solid black;
+border-radius:62.5%;
 font-size:1.5rem;
 color:white;
 font-weight:bold;
@@ -38,9 +38,19 @@ background-color:white;
 color:red;
 }
 article{
-border:5px groove white;
-border-radius:10px;
+border:31.25% groove white;
+border-radius:62.5%;
 padding: 10rem;
 margin: 10rem;
 background-color: rgb(15, 23, 85);
+display: flex;
+align-items: center;
+justify-content: center;
+position: absolute;
+right: 0;
+left: 0;
+top: 0;
+bottom: 0;
+margin: auto;
 }
+
